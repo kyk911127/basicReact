@@ -1,15 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import HookUseState from './hooks/HookUseState';
+import HookUseEffect from './hooks/HookUseEffect';
+import HookUseRef1 from './hooks/HookUseRef1';
+import HookUseRef2 from './hooks/HookUseRef2';
+import HookUseRef3 from './hooks/HookUseRef3';
+import HookUseContext from './hooks/HookUseContext';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <App />
+    <HookUseContext />
   </React.StrictMode>
 );
 
