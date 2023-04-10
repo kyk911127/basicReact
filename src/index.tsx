@@ -6,14 +6,17 @@ import HookUseEffect from './hooks/HookUseEffect';
 import HookUseRef1 from './hooks/HookUseRef1';
 import HookUseRef2 from './hooks/HookUseRef2';
 import HookUseRef3 from './hooks/HookUseRef3';
-import HookUseContext from './hooks/HookUseContext';
+import HookUseContext from './hooks/HookUseContext/HookUseContext';
+import HookUseMemo from './hooks/HookUseMemo';
+import HookUseCallback from './hooks/HookUseCallback/HookUseCallback';
+import HookUseCallback2 from './hooks/HookUseCallback/HookUseCallback2';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <HookUseContext />
+    <HookUseCallback2 />
   </React.StrictMode>
 );
 
