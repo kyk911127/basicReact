@@ -10,13 +10,14 @@ import HookUseContext from './hooks/HookUseContext/HookUseContext';
 import HookUseMemo from './hooks/HookUseMemo';
 import HookUseCallback from './hooks/HookUseCallback/HookUseCallback';
 import HookUseCallback2 from './hooks/HookUseCallback/HookUseCallback2';
+import HookUseReducer from './hooks/HookUseReducer/HookUseReducer';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <HookUseCallback2 />
+    <HookUseReducer />
   </React.StrictMode>
 );
 
