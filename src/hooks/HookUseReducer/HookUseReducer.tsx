@@ -4,7 +4,6 @@ import { IUsers, IUserInfo } from './interface/IUsers';
 import User from './components/User';
 import { ACTION_TYPES } from './constans/actionTypes';
 
-
 const reducer = (state: IUsers, action: { type: string, user: IUserInfo }): IUsers => {
     switch (action.type) {
         case ACTION_TYPES.ADD_USER:
